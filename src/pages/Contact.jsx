@@ -7,6 +7,7 @@ import Button from '../components/Common/Button';
 import SectionTitle from '../components/Common/SectionTitle';
 import { portfolioData } from '../utils/data';
 
+
 const Contact = () => {
   const { name, email, location, socialLinks } = portfolioData;
   const [formData, setFormData] = useState({

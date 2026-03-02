@@ -36,7 +36,7 @@ const ProjectGrid = () => {
             >
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
-                <div className={`absolute inset-0 bg-gradient-to-br ${colors[index % colors.length]} opacity-90`} />
+                {/* <div className={`absolute inset-0 bg-gradient-to-br ${colors[index % colors.length]} opacity-90`} /> */}
                 <img
                   src={project.image}
                   alt={project.title}
