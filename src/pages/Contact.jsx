@@ -50,8 +50,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+234 123 456 7890',
-      href: 'tel:+2341234567890'
+      value: '+2349027086472',
+      href: 'tel:+2349027086472'
     }
   ];
 

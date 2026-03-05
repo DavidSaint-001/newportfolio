@@ -3,7 +3,7 @@ export const portfolioData = {
   // Personal Information
   name: 'Ejoma David Oghene Serome',
   title: 'Frontend Developer',
-  email: 'ejomadavid@gmail.com',
+  email: 'ejomaserome@gmail.com',
   location: 'Nigeria',
   logo: "Saint David",
   

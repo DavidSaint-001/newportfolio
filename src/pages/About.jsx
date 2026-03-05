@@ -351,7 +351,7 @@ const About = () => {
                     Get In Touch
                   </Button>
                 </a>
-                <a href="/#projects">
+                <a href="/projects">
                   <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary-600">
                     <ExternalLink className="mr-2 w-5 h-5" />
                     View Projects
