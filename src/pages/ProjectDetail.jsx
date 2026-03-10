@@ -19,7 +19,7 @@ const ProjectDetail = () => {
         {/* Hero Section */}
         <section className="px-4 sm:px-6 lg:px-8 mb-16">
           <div className="max-w-7xl mx-auto">
-            <Link to="/#projects">
+            <Link to="/projects">
               <Button variant="ghost" className="mb-6">
                 <ArrowLeft className="mr-2 w-4 h-4" />
                 Back to Projects

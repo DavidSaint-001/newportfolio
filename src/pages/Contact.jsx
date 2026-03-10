@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, Github, Linkedin, Twitter, Send, CheckCircle } from 'lucide-react';
+import { Mail, MapPin, Phone, Github, Linkedin, Instagram, Send, CheckCircle } from 'lucide-react';
 import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Button from '../components/Common/Button';
@@ -58,7 +58,7 @@ const Contact = () => {
   const socials = [
     { icon: Github, href: socialLinks.github, label: 'GitHub' },
     { icon: Linkedin, href: socialLinks.linkedin, label: 'LinkedIn' },
-    { icon: Twitter, href: socialLinks.twitter, label: 'Twitter' },
+    { icon: Instagram, href: socialLinks.twitter, label: 'instagram' },
   ];
 
   return (

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Github, Linkedin, Twitter } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Instagram } from 'lucide-react';
 import { portfolioData } from '../../utils/data';
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
   const socialLinks = [
     { icon: Github, href: portfolioData.socialLinks.github, label: 'GitHub' },
     { icon: Linkedin, href: portfolioData.socialLinks.linkedin, label: 'LinkedIn' },
-    { icon: Twitter, href: portfolioData.socialLinks.twitter, label: 'Twitter' },
+    { icon: Instagram, href: portfolioData.socialLinks.instagram, label: 'Instagram' },
   ];
 
   // Get initials from name

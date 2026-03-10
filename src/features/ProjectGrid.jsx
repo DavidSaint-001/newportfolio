@@ -5,14 +5,14 @@ import SectionTitle from '../components/Common/SectionTitle';
 import Badge from '../components/Common/Badge';
 import { portfolioData } from '../utils/data';
 
-const colors = [
-  'from-primary-500 to-blue-600',
-  'from-accent-500 to-purple-600',
-  'from-pink-500 to-rose-600',
-  'from-green-500 to-teal-600',
-  'from-orange-500 to-red-600',
-  'from-cyan-500 to-blue-600',
-];
+// const colors = [
+//   'from-primary-500 to-blue-600',
+//   'from-accent-500 to-purple-600',
+//   'from-pink-500 to-rose-600',
+//   'from-green-500 to-teal-600',
+//   'from-orange-500 to-red-600',
+//   'from-cyan-500 to-blue-600',
+// ];
 
 const ProjectGrid = () => {
   return (

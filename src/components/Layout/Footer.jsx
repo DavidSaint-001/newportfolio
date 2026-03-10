@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail, MapPin } from 'lucide-react';
+import { Github, Linkedin, Twitter, Mail, MapPin, Instagram } from 'lucide-react';
 import { portfolioData } from '../../utils/data';
 
 const Footer = () => {
@@ -8,6 +8,7 @@ const Footer = () => {
     { icon: Github, href: portfolioData.socialLinks.github, label: 'GitHub' },
     { icon: Linkedin, href: portfolioData.socialLinks.linkedin, label: 'LinkedIn' },
     { icon: Twitter, href: portfolioData.socialLinks.twitter, label: 'Twitter' },
+    { icon: Instagram, href: portfolioData.socialLinks.instagram, label: 'Instagram' },
     { icon: Mail, href: portfolioData.socialLinks.email, label: 'Email' },
   ];
 

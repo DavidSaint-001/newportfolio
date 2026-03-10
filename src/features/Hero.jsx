@@ -1,11 +1,20 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Download, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Button from '../components/Common/Button';
 import { portfolioData } from '../utils/data';
 import myimage from '../assets/images/me.JPG';
 
 const Hero = () => {
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/ejoma_david_serome_frontend_cv.pdf';
+    link.download = 'Ejoma_David_Serome_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section className="min-h-screen flex items-center pt-20 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-white to-blue-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
       <div className="max-w-7xl mx-auto">
@@ -83,7 +92,7 @@ const Hero = () => {
                 </Button>
               </Link>
               
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={handleDownloadCV}>
                 <Download className="mr-2 w-5 h-5" />
                 Download CV
               </Button>
@@ -119,6 +128,14 @@ const Hero = () => {
                 className="p-3 rounded-full bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
               >
                 <Twitter className="w-5 h-5" />
+              </a>
+              <a 
+                href={portfolioData.socialLinks.instagram} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-full bg-gray-100 dark:bg-slate-700 text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300"
+              >
+                <Instagram className="w-5 h-5" />
               </a>
             </motion.div>
           </motion.div>

@@ -1,4 +1,10 @@
-// Portfolio data - Projects, skills, and content
+import React from 'react';
+import proj1 from '../assets/images/motion graphics.avif';
+import proj2 from '../assets/images/computer appreiation.avif';
+import proj3 from '../assets/images/ui ux.avif';
+import proj4 from '../assets/images/front end (1).avif';
+
+
 export const portfolioData = {
   // Personal Information
   name: 'Ejoma David Oghene Serome',
@@ -10,8 +16,8 @@ export const portfolioData = {
   // Social Links
   socialLinks: {
     github: 'https://github.com/DavidSaint-001',
-    linkedin: 'https://linkedin.com',
-    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com/in/ejoma-david-1b99303b4',
+    instagram: 'https://www.instagram.com/ejomaserome/',
     email: 'mailto:ejomaserome@gmail.com',
   },
   
@@ -29,7 +35,7 @@ export const portfolioData = {
       shortDescription: 'A beautiful analytics dashboard with real-time data visualization and responsive design.',
       description: 'A comprehensive analytics dashboard featuring real-time data visualization, dark/light mode toggle, and fully responsive layout. Built with React and Tailwind CSS for optimal performance.',
       tags: ['React', 'Tailwind CSS', 'Chart.js', 'Framer Motion'],
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
+      image: proj1,
       client: 'TechCorp',
       year: '2024',
       role: 'Frontend Developer',
@@ -43,7 +49,7 @@ export const portfolioData = {
       shortDescription: 'A modern online shopping experience with smooth animations and intuitive navigation.',
       description: 'A sleek e-commerce platform featuring product filtering, cart functionality, and seamless checkout experience. Includes beautiful micro-interactions and smooth page transitions.',
       tags: ['Next.js', 'Tailwind CSS', 'Supabase', 'Stripe'],
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
+      image: proj2,
       client: 'ShopMax',
       year: '2024',
       role: 'Frontend Developer',
@@ -57,7 +63,7 @@ export const portfolioData = {
       shortDescription: 'An award-winning portfolio website with immersive 3D elements and smooth scrolling.',
       description: 'A visually stunning portfolio website featuring immersive 3D elements, smooth scroll animations, and a unique visual identity that stands out from traditional portfolios.',
       tags: ['React', 'Three.js', 'Framer Motion', 'Tailwind'],
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
+      image: proj3,
       client: 'Creative Agency',
       year: '2023',
       role: 'Frontend Developer',
@@ -71,7 +77,7 @@ export const portfolioData = {
       shortDescription: 'A productivity tool with drag-and-drop interface and real-time collaboration.',
       description: 'A feature-rich task management application with drag-and-drop kanban boards, team collaboration, and real-time updates. Built with modern frontend technologies for a snappy experience.',
       tags: ['React', 'Tailwind CSS', 'Supabase', 'React Beautiful DnD'],
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop',
+      image: proj4,
       client: 'Productivity Inc',
       year: '2023',
       role: 'Frontend Developer',
